@@ -1,5 +1,5 @@
 ---
 id: cli
-title: Angular CLI Quickstart
+title: Angular CLI
 sidebar_label: Angular CLI
 ---

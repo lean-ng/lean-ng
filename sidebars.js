@@ -14,6 +14,10 @@ module.exports = {
       'core/concepts',
       'core/component-basics',
       'core/template-syntax',
+    ],
+    'Development Tooling': [
+      'dev-tooling/cli',
+      'dev-tooling/debugging',
     ]
   },
   someSidebar: {
