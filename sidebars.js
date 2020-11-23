@@ -12,6 +12,7 @@ module.exports = {
     ],
     'Angular Core': [
       'core/concepts',
+      'core/component-basics'
     ]
   },
   someSidebar: {
