@@ -1,19 +1,18 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Lean Angular',
+  tagline: 'Learn Angular A Lean Way',
+  url: 'https://lean-ng.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Lean Angular',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Lean Stack Logo',
+        src: 'img/logo.png',
+        srcDark: 'img/logo.png'
       },
       items: [
         {
@@ -22,9 +21,13 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          to: 'blog', 
+          label: 'Blog', 
+          position: 'left'
+        },
+        {
+          href: 'https://github.com/lean-ng/docs',
           label: 'GitHub',
           position: 'right',
         },
