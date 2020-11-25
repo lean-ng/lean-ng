@@ -22,8 +22,13 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'blog', 
-          label: 'Blog', 
+          to: 'resources',
+          label: 'Resources',
+          position: 'left'
+        },
+        {
+          to: 'blog',
+          label: 'Blog',
           position: 'left'
         },
         {

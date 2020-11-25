@@ -22,10 +22,10 @@ Links:
 ### Angular Utilities
 
 :::caution
-Achtung. Mit Angular 10 hat sich die Schnittstelle des globalen ```ng```-Objektes
+Achtung. Mit dem neuen Renderer ```Ivy``` hat sich die Schnittstelle des globalen ```ng```-Objektes
 komplett geändert. Die ```probe```-Methode existiert nicht mehr, stattdessen eine
-Reihe von get-Methoden. Noch habe ich keine Dokumentation dazu gefunden und konnte
-diese auch noch nicht weiter evaluieren.
+Reihe von get-Methoden. Bis ich meine Dokumentation geändert habe,
+verweise ich auf den [Strumpflohner-Blog](https://juristr.com/blog/2019/09/debugging-angular-ivy-console/).
 :::
 
 Angular stellt das globale Objekt ```ng``` bereit. Die ```probe```-Methode dieses Objektes gibt uns für ein DOM-Element (also zum Beispiel das aktuelle ```$0``` von oben) das DebugElement zurück. Darüber lässt sich

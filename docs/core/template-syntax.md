@@ -6,18 +6,37 @@ sidebar_label: Template Syntax
 ## Property Binding
 
 > One-Way: Component-Property -> DOM-Element/Angular-Component Property
+bzw. eine Template-Expression
 
+```html
+  <element [propertyName]="componentProperty"></element>
+```
 ## Interpolation
 
-> Convenience Syntax für ein ```textContent```-Property Binding
+> Convenience Syntax für ein Property Binding
 
+```html
+  <element propertyName="{{ componentProperty }}"></element>
+  <element>{{ componentProperty }}</element>
+```
+
+Letzters ist eine Bindung an die Property ```textContent```.
 ## Event Binding
 
-> DOM-Element/Angular-Component Event ruft Component-Method
+> DOM-Element/Angular-Component Event ruft Component-Method bzw. führt
+Template-Statement aus.
 
+```html
+  <element (eventName)="componentMethod()"></element>
+```
 ## Two-Way Binding
 
 > Two-Way: Kombination aus Property- und Event-Binding mit etwas syntaktischem Zucker
+
+```html
+  <componentName [prop]="componentProp" (propChange)="componentProp=$event"></element>
+  <componentName [(prop)]="componentProp"></element>
+```
 
 ## Template Reference Variables
 
