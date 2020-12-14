@@ -6,7 +6,7 @@ module.exports = {
       'articles/prerequisites/typescript',
     ],
     Quickstart: [
-      'articles/quickstart/overview',
+      'index',
       'articles/quickstart/install',
       'articles/quickstart/cli',
     ],
