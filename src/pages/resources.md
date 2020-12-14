@@ -23,4 +23,10 @@ title: Resources und Links
 
 ### Event Handling
 
+* [Implementing Event Modifiers aka keyup.enter](https://netbasal.com/implementing-event-modifiers-in-angular-87e1a07969ce)
 ### Change Detection
+
+### Forms
+
+* [Template Driven Forms](https://blog.thoughtram.io/angular/2016/03/21/template-driven-forms-in-angular-2.html)
+* [Best Practice on Defining Validators](https://indepth.dev/posts/1319/the-best-way-to-implement-custom-validators)

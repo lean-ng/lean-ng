@@ -1,27 +1,30 @@
 module.exports = {
   docsSidebar: {
     Voraussetzungen: [
-      'prerequisites/html-dom-css',
-      'prerequisites/ecmascript',
-      'prerequisites/typescript',
+      'articles/prerequisites/html-dom-css',
+      'articles/prerequisites/ecmascript',
+      'articles/prerequisites/typescript',
     ],
     Quickstart: [
-      'quickstart/overview',
-      'quickstart/install',
-      'quickstart/cli',
+      'articles/quickstart/overview',
+      'articles/quickstart/install',
+      'articles/quickstart/cli',
     ],
     'Angular Core': [
-      'core/concepts',
-      'core/component-basics',
-      'core/template-syntax',
+      'articles/core/concepts',
+      'articles/core/component-basics',
+      'articles/core/template-syntax',
     ],
     'Development Tooling': [
-      'dev-tooling/cli',
-      'dev-tooling/debugging',
+      'articles/dev-tooling/cli',
+      'articles/dev-tooling/debugging',
     ]
   },
-  someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+  resources: {
+    Resources: [
+      'resources/html-dom-css',
+      'resources/es',
+      'resources/angular'
+    ]
   },
 };

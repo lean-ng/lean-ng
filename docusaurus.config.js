@@ -16,13 +16,14 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
+          to: 'docs/articles/',
+          activeBasePath: 'docs/articles',
           label: 'Docs',
           position: 'left',
         },
         {
-          to: 'resources',
+          to: 'docs/resources/angular',
+          activeBasePath: 'docs/resources',
           label: 'Resources',
           position: 'left'
         },
