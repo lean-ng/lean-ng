@@ -37,7 +37,7 @@ wird, delegiert das globale CLI immer an das lokale CLI des Projektes. Damit
 wird sichergestellt, dass eventuelle Versions-Unterschiede zwischen globaler
 und lokaler Installation keine Rolle spielen.
 
-Zur weiteren Verwendung und den möglichen Optionen siehe das [CLI-Kapitel](/docs/dev-tooling/cli).
+Zur weiteren Verwendung und den möglichen Optionen siehe das [CLI-Kapitel](/articles/docs/dev-tooling/cli).
 
 ## Powershell
 
