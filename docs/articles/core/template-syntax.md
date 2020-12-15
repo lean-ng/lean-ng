@@ -34,26 +34,52 @@ Template-Statement aus.
 > Two-Way: Kombination aus Property- und Event-Binding mit etwas syntaktischem Zucker
 
 ```html
-  <componentName [prop]="componentProp" (propChange)="componentProp=$event"></element>
-  <componentName [(prop)]="componentProp"></element>
+  <component-name [prop]="componentProp" (propChange)="componentProp=$event"></component-name>
+  <component-name [(prop)]="componentProp"></component-name>
 ```
 
 ## Template Reference Variables
 
 > Definiert lokale Template-Variable. Gesetzt auf DOM-Element oder Component- bzw. Directive-Instanz
 
+```html
+  <element #elt></element>
+  <component-name #comp></component-name>
+```
+
 ## Attribute Directives
 
 > Per Attribut angewendete Directive
 
+```html
+  <element directiveName></element>
+  <element directiveName [directiveProp]="value"></element>
+  <element [directiveName]="value"></element>
+```
 ## Structural Directives
 
 > Spezielle Template-Directive mit Mikro-Syntax
+
+```html
+  <element *ngIf="true"></element>
+  <ul>
+    <li *ngFor="let s of ['Eins','Zwei','Drei']">
+      {{ s }}
+    </li>
+  </ul>
+```
 
 ## Attribute/Class/Style Bindings
 
 > Spezielle Bindungen an HTML-Attribute bzw. syntaktische Vereinfachungen zum Setzen von CSS-Klassen bzw. inline CSS-Styles.
 
+```html
+  <element [attr.data-id]="17"></element>
+  <element [style.display]="'block"></element>
+  <element [class.hidden]="true"></element>
+```
+
 ## Template Expressions/Statements
 
 > Besonderheiten der Ausdrücke bzw. Statements bei den verschiedenen Bindungsarten.
+
