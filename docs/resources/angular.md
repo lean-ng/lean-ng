@@ -74,6 +74,12 @@ title: Angular
 * [Template Driven Forms](https://blog.thoughtram.io/angular/2016/03/21/template-driven-forms-in-angular-2.html)
 * [Best Practice on Defining Validators](https://indepth.dev/posts/1319/the-best-way-to-implement-custom-validators)
 
+## State Management
+
+### Libraries
+
+* [Comparison: NgRX vs NgXS vs Akita vs RxJS](https://ordina-jworks.github.io/angular/2018/10/08/angular-state-management-comparison.html)
+
 ## Internationalisierung / i18n
 
 ### @angular/i18n
@@ -90,6 +96,10 @@ title: Angular
 
 * [ngx-translate](http://www.ngx-translate.com/)
 * [Discussion: Future of the library](https://github.com/ngx-translate/core/issues/783)
+
+## Diverse Tipps
+
+* [10 useful Angular Features](https://blog.bitsrc.io/10-useful-angular-features-youve-probably-never-used-e9e33f5c35a7)
 
 ## Andere Quellen-Sammlungen
 
