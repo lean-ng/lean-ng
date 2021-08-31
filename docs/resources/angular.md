@@ -41,6 +41,10 @@ title: Angular
 * [Victor Savkin - Siehe Nrwl- Blog, letzter Beitrag aus 2016](https://vsavkin.com/)
 * [Todd Motto - Redirected zu Ultimate Courses](https://toddmotto.com)
 
+## Cheat-Sheets
+
+* [Malcoded](https://malcoded.com/angular-cheat-sheet/)
+
 ## CLI
 
 * [GitHub Repo mit Diffs für alle CLI Versionen](https://github.com/cexbrayat/angular-cli-diff)
