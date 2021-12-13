@@ -31,8 +31,8 @@ title: Angular
 * [Offering Solutions - etwas .Net Core lastig](https://offering.solutions/tags/angular/)
 * [Juri Strumpflohner](https://juristr.com/tags/angular/)
 * [Minko Gechev](https://blog.mgechev.com/)
+* [Christian Lüdemann](https://christianlydemann.com/blog/)
 * [Malcoded](https://malcoded.com/posts?filter=angular)
-* [Medium.com tagged Angular](https://medium.com/tag/angular)
 
 ### Archiv
 
@@ -52,6 +52,12 @@ title: Angular
 * [Whats new in CLI x.y?](https://blog.ninja-squad.com/tags.html#Angular%20CLI-ref)
 
 ## Components and Templates
+
+### Change Detection
+
+* [Angular University - How does Angular CD works](https://blog.angular-university.io/how-does-angular-2-change-detection-really-work/)
+* [Michael Hoffmann - The last guide ;-)](https://www.mokkapps.de/blog/the-last-guide-for-angular-change-detection-you-will-ever-need/)
+* [Daniel Wiehl - Repository zur Visualisierung](https://danielwiehl.github.io/edu-angular-change-detection/)
 
 ### Event Handling
 
@@ -77,6 +83,7 @@ title: Angular
 
 * [Template Driven Forms](https://blog.thoughtram.io/angular/2016/03/21/template-driven-forms-in-angular-2.html)
 * [Best Practice on Defining Validators](https://indepth.dev/posts/1319/the-best-way-to-implement-custom-validators)
+* [Control Value Accessor](https://www.tsmean.com/articles/angular/angular-control-value-accessor-example/)
 
 ## State Management
 
@@ -100,6 +107,14 @@ title: Angular
 
 * [ngx-translate](http://www.ngx-translate.com/)
 * [Discussion: Future of the library](https://github.com/ngx-translate/core/issues/783)
+
+## Logging
+
+* [Christian Lüdemann - Logging with Angular](https://christianlydemann.com/logging-with-angular/)
+
+## Helper Libraries
+
+* [NG Neat - Netanel Basal Community Repos](https://github.com/ngneat)
 
 ## Diverse Tipps
 
