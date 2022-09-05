@@ -7,7 +7,7 @@ title: Angular
 * [Angular Homepage](https://angular.io)
 * [Documentation](https://angular.io/docs)
 * [API](https://angular.io/api)
-* [CLI](https://cli.angular.io/)
+* [CLI](https://angular.io/cli)
 * [Material Design Components](https://material.angular.io/)
 * [Update Guide](https://update.angular.io/)
 
@@ -96,6 +96,9 @@ title: Angular
 ### @angular/i18n
 
 * [Angular Docs](https://angular.io/guide/i18n)
+* [Kompletter Guide](https://phrase.com/blog/posts/angular-localization-i18n/)
+* [Kleine Lösung zum Handling/Updating von Translationfiles](https://github.com/daniel-sc/ng-extract-i18n-merge)
+* [Komplett-Lösung zur Unterstützung der Internationalisierung](https://github.com/kyubisation/angular-t9n)
 
 ### Transloco
 
@@ -108,9 +111,20 @@ title: Angular
 * [ngx-translate](http://www.ngx-translate.com/)
 * [Discussion: Future of the library](https://github.com/ngx-translate/core/issues/783)
 
+## Testing
+
+* [Einfachere Tests mit der Testing Library](https://timdeschryver.dev/blog/good-testing-practices-with-angular-testing-library)
+* [Unit Testing mit Jest (statt Karma und Jasmine)](https://www.amadousall.com/how-to-set-up-angular-unit-testing-with-jest/)
+
 ## Logging
 
 * [Christian Lüdemann - Logging with Angular](https://christianlydemann.com/logging-with-angular/)
+* [Codemag - Logging in Angular](https://www.codemag.com/article/1711021/Logging-in-Angular-Applications)
+* [Log Http Requests](https://www.concretepage.com/angular/angular-logging-http-interceptor)
+
+## Security
+
+* [Überblick über Risks allgemein und spezielle Angular Hinweise](https://christianlydemann.com/the-complete-guide-to-angular-security/)
 
 ## Helper Libraries
 
@@ -118,6 +132,7 @@ title: Angular
 
 ## Diverse Tipps
 
+* [Document Title seit Angular 14](https://dev.to/brandontroberts/setting-page-titles-natively-with-the-angular-router-393j)
 * [10 useful Angular Features](https://blog.bitsrc.io/10-useful-angular-features-youve-probably-never-used-e9e33f5c35a7)
 
 ## Andere Quellen-Sammlungen
